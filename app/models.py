@@ -6,6 +6,6 @@ class Tasks(models.Model):
     completed = models.BooleanField(default=False)
 
     def __str__(self):
-        return self.task
+        return f"{self.task}"
 
 
